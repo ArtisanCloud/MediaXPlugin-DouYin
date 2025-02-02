@@ -15,7 +15,7 @@ type MediaXPluginDouYin struct {
 
 func NewMediaXPluginDouYin() MediaXPluginDouYin {
 	return MediaXPluginDouYin{
-		PluginName: string(contract.Douyin),
+		PluginName: string(contract.DouYin),
 	}
 }
 
@@ -61,4 +61,4 @@ func (p *MediaXPluginDouYin) Publish(ctx *context.Context, arg interface{}) (int
 }
 
 // make sure the variable is exported as the same "Name" as the name in the plugin.yaml file.
-var PluginMediaXA MediaXPluginDouYin = NewMediaXPluginDouYin()
+var DouYin MediaXPluginDouYin = NewMediaXPluginDouYin()
