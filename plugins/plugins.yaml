@@ -3,6 +3,6 @@ version: 1.0.0
 type: open
 plugins:
   - name: DouYin
-    sourcePath: ./src/DouYin.go
-    buildPath: ./plugins/DouYin.so
+    sourcePath: ./src/douYin.go
+    buildPath: ./plugins/douYin.so
     config: {}
