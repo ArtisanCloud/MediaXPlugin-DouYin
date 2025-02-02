@@ -1,13 +1,8 @@
-name: PluginMediaX
+name: MediaXPluginDouYin
 version: 1.0.0
 type: open
 plugins:
-  - name: PluginMediaXA
-    sourcePath: ./src/pluginA.go
-    buildPath: ./plugins/pluginA.so
-    config: {}
-
-  - name: PluginMediaXB
-    sourcePath: ./src/pluginB.go
-    buildPath: ./plugins/pluginB.so
+  - name: DouYin
+    sourcePath: ./src/DouYin.go
+    buildPath: ./plugins/DouYin.so
     config: {}
